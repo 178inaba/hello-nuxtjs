@@ -20,3 +20,17 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## Docker Commands
+
+### Build
+
+```console
+$ docker build --force-rm --no-cache -t 178inaba/hello-nuxtjs .
+```
+
+### Run
+
+```console
+$ docker run -d -p 3000:3000 --name hello-nuxtjs 178inaba/hello-nuxtjs
+```
