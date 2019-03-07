@@ -34,3 +34,9 @@ $ docker build --force-rm --no-cache -t 178inaba/hello-nuxtjs .
 ```console
 $ docker run -d -p 3000:3000 --name hello-nuxtjs 178inaba/hello-nuxtjs
 ```
+
+### Push
+
+```console
+$ docker push 178inaba/hello-nuxtjs
+```
