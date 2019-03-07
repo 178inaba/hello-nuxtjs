@@ -1,14 +1,11 @@
-FROM node:10
+FROM node:10-alpine
 
 COPY . /app
 WORKDIR /app
 
-RUN npm install
-
-RUN npm run build
+RUN npm install && npm run build
 
 ENV HOST 0.0.0.0
-
 EXPOSE 3000
 
 CMD ["npm", "start"]
