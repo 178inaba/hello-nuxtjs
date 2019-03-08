@@ -2,6 +2,10 @@
 
 > My first Nuxt.js project.
 
+## Requirement
+
+Node.js 10.15.2
+
 ## Build Setup
 
 ``` bash
