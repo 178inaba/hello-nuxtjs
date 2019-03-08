@@ -2,9 +2,11 @@
 
 > My first Nuxt.js project.
 
-## Requirement
+## Requirements
 
-Node.js 10.15.2
+- Node.js 10.15.2
+  - Recommend using [nodenv](https://github.com/nodenv/nodenv).
+- [yarn](https://yarnpkg.com)
 
 ## Build Setup
 
