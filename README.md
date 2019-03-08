@@ -25,7 +25,7 @@ $ yarn start
 $ yarn run generate
 
 # test
-$ yarn run test
+$ yarn test
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
